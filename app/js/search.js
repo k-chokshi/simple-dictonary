@@ -11,13 +11,13 @@
 const searchText = document.getElementById('search-input');
 const errorText = document.getElementById('error-text');
 const searchSection = document.querySelector('.results');
-var words = ``;
+let words = ``;
 
 //On Enter Key press
 document.getElementById('search-input').addEventListener('keypress', (e) => {
     if (e.key === 'Enter') {
         //sanitize the word entered -remove the space and lowercase;
-        var enteredWord = searchText.value.toLowerCase().trim();
+        let enteredWord = searchText.value.toLowerCase().trim();
 
         //Fetch the definations
         search(enteredWord).then(
@@ -77,9 +77,9 @@ function displaySearchResults(results) {
  * @author   Kruti Chokshi
  */
 function clearSearchResults() {
-    var e = document.querySelector('.results');
+    let e = document.querySelector('.results');
     if (e != null) {
-        var child = e.lastElementChild;
+        let child = e.lastElementChild;
         while (child) {
             e.removeChild(child);
             child = e.lastElementChild;
