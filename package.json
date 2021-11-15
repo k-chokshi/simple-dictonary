@@ -1,0 +1,27 @@
+{
+  "name": "simple-dictionary",
+  "version": "1.0.0",
+  "description": "a simple english dictionary built using plain JavaScript (use plain ES6+)and markup only.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k-chokshi/simple-dictonary.git"
+  },
+  "keywords": [
+    "word",
+    "dictionary"
+  ],
+  "author": "Kruti Chokshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k-chokshi/simple-dictonary/issues"
+  },
+  "homepage": "https://github.com/k-chokshi/simple-dictonary#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-webserver": "^0.9.1"
+  }
+}
