@@ -19,8 +19,8 @@ Follow these steps in order to get the website up and running locally on your ma
 - `npm install` to install any dependencies
 - `gulp webserver` to start a live reload session
 
+```bash
 ## File Structure
-
 ├── app
 │   ├── images
 |   |   |__logo.png
@@ -32,8 +32,4 @@ Follow these steps in order to get the website up and running locally on your ma
 │   │
 │   └── style
 │       ├── search.css
-
-
-## Tips
-
-- You can use any file structure for your javascript and scss files. The one provided is an example.
+```
